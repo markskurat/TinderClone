@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		972A8B8F285B77CE001132A4 /* TinderCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8B8E285B77CE001132A4 /* TinderCloneApp.swift */; };
+		972A8B91285B77CE001132A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8B90285B77CE001132A4 /* ContentView.swift */; };
+		972A8B93285B77CF001132A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972A8B92285B77CF001132A4 /* Assets.xcassets */; };
+		972A8B96285B77CF001132A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972A8B95285B77CF001132A4 /* Preview Assets.xcassets */; };
+		972A8B9D285B78EF001132A4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8B9C285B78EF001132A4 /* MainView.swift */; };
+		972A8B9F285B7A95001132A4 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8B9E285B7A95001132A4 /* TabBarButtonView.swift */; };
+		972A8BA1285B7F0A001132A4 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8BA0285B7F0A001132A4 /* AppStateManager.swift */; };
+		972A8BA3285B8181001132A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8BA2285B8181001132A4 /* Extensions.swift */; };
+		972A8BA6285B8A4B001132A4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8BA5285B8A4B001132A4 /* ProfileView.swift */; };
+		972A8BA9285B8B89001132A4 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8BA8285B8B89001132A4 /* RoundedImage.swift */; };
+		972A8BAC285B8BA0001132A4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 972A8BAB285B8BA0001132A4 /* Kingfisher */; };
+		972A8BAF285B97BB001132A4 /* ProfileSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8BAE285B97BB001132A4 /* ProfileSwipePromo.swift */; };
+		973C01C2285E6006007852B0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01C1285E6006007852B0 /* Message.swift */; };
+		973C01C5285E608B007852B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01C4285E608B007852B0 /* Person.swift */; };
+		973C01C8285E6119007852B0 /* MessagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01C7285E6119007852B0 /* MessagePreview.swift */; };
+		973C01CB285E61DA007852B0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01CA285E61DA007852B0 /* MessageView.swift */; };
+		973C01CD285E63CE007852B0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01CC285E63CE007852B0 /* ChatView.swift */; };
+		973C01CF285E640D007852B0 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01CE285E640D007852B0 /* ChatManager.swift */; };
+		973C01D1285E660A007852B0 /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01D0285E660A007852B0 /* ChatViewHeader.swift */; };
+		973C01D3285F9EB9007852B0 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01D2285F9EB9007852B0 /* MessageListView.swift */; };
+		973C01D5285F9EE8007852B0 /* MessageListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01D4285F9EE8007852B0 /* MessageListVM.swift */; };
+		973C01D7285FC3E7007852B0 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01D6285FC3E7007852B0 /* MessageRowView.swift */; };
+		973C01D92860CCE3007852B0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01D82860CCE3007852B0 /* UserManager.swift */; };
+		973C01DB2860CD2E007852B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01DA2860CD2E007852B0 /* User.swift */; };
+		973C01E02860D13E007852B0 /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01DF2860D13E007852B0 /* LikesView.swift */; };
+		973C01E22860D5D6007852B0 /* PersonSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01E12860D5D6007852B0 /* PersonSquare.swift */; };
+		973C01E42860E0CB007852B0 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01E32860E0CB007852B0 /* TopPicksView.swift */; };
+		973C01E62860E20E007852B0 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01E52860E20E007852B0 /* MatchesView.swift */; };
+		973C01E82861073B007852B0 /* PurchasePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01E72861073B007852B0 /* PurchasePopup.swift */; };
+		973C01EB28610FC3007852B0 /* PurchaseSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01EA28610FC3007852B0 /* PurchaseSwipePromo.swift */; };
+		973C01EE2861119E007852B0 /* PurchaseOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01ED2861119E007852B0 /* PurchaseOptionView.swift */; };
+		973C01F0286111D8007852B0 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01EF286111D8007852B0 /* Subscription.swift */; };
+		973C01F228611B64007852B0 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01F128611B64007852B0 /* RoundedCorner.swift */; };
+		973C01F728612339007852B0 /* CardImageScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C01F628612339007852B0 /* CardImageScroller.swift */; };
+		97C3B9F228622469001A18FD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3B9F128622469001A18FD /* CardView.swift */; };
+		97C3B9F428622C1F001A18FD /* FullScreenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3B9F328622C1F001A18FD /* FullScreenCardView.swift */; };
+		97C3B9F6286231B1001A18FD /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3B9F5286231B1001A18FD /* CircleButtonView.swift */; };
+		97C3B9F828624508001A18FD /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3B9F728624508001A18FD /* CardStack.swift */; };
+		97C3B9FA286246EB001A18FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3B9F9286246EB001A18FD /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		972A8B8B285B77CE001132A4 /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972A8B8E285B77CE001132A4 /* TinderCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneApp.swift; sourceTree = "<group>"; };
+		972A8B90285B77CE001132A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		972A8B92285B77CF001132A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		972A8B95285B77CF001132A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		972A8B9C285B78EF001132A4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		972A8B9E285B7A95001132A4 /* TabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
+		972A8BA0285B7F0A001132A4 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		972A8BA2285B8181001132A4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		972A8BA5285B8A4B001132A4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		972A8BA8285B8B89001132A4 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		972A8BAE285B97BB001132A4 /* ProfileSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwipePromo.swift; sourceTree = "<group>"; };
+		973C01C1285E6006007852B0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		973C01C4285E608B007852B0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		973C01C7285E6119007852B0 /* MessagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
+		973C01CA285E61DA007852B0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		973C01CC285E63CE007852B0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		973C01CE285E640D007852B0 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		973C01D0285E660A007852B0 /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
+		973C01D2285F9EB9007852B0 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		973C01D4285F9EE8007852B0 /* MessageListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListVM.swift; sourceTree = "<group>"; };
+		973C01D6285FC3E7007852B0 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		973C01D82860CCE3007852B0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		973C01DA2860CD2E007852B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		973C01DF2860D13E007852B0 /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
+		973C01E12860D5D6007852B0 /* PersonSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSquare.swift; sourceTree = "<group>"; };
+		973C01E32860E0CB007852B0 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
+		973C01E52860E20E007852B0 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		973C01E72861073B007852B0 /* PurchasePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasePopup.swift; sourceTree = "<group>"; };
+		973C01EA28610FC3007852B0 /* PurchaseSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSwipePromo.swift; sourceTree = "<group>"; };
+		973C01ED2861119E007852B0 /* PurchaseOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOptionView.swift; sourceTree = "<group>"; };
+		973C01EF286111D8007852B0 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		973C01F128611B64007852B0 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		973C01F628612339007852B0 /* CardImageScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageScroller.swift; sourceTree = "<group>"; };
+		97C3B9F128622469001A18FD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		97C3B9F328622C1F001A18FD /* FullScreenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCardView.swift; sourceTree = "<group>"; };
+		97C3B9F5286231B1001A18FD /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		97C3B9F728624508001A18FD /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		97C3B9F9286246EB001A18FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972A8B88285B77CE001132A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972A8BAC285B8BA0001132A4 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972A8B82285B77CE001132A4 = {
+			isa = PBXGroup;
+			children = (
+				972A8B8D285B77CE001132A4 /* TinderClone */,
+				972A8B8C285B77CE001132A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972A8B8C285B77CE001132A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972A8B8B285B77CE001132A4 /* TinderClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972A8B8D285B77CE001132A4 /* TinderClone */ = {
+			isa = PBXGroup;
+			children = (
+				973C01D82860CCE3007852B0 /* UserManager.swift */,
+				972A8BA0285B7F0A001132A4 /* AppStateManager.swift */,
+				972A8B8E285B77CE001132A4 /* TinderCloneApp.swift */,
+				972A8B90285B77CE001132A4 /* ContentView.swift */,
+				972A8BA4285B860F001132A4 /* MainTabBar */,
+				973C01F528612323007852B0 /* Home */,
+				972A8BA7285B8A56001132A4 /* Profile */,
+				973C01C9285E61C2007852B0 /* Messages */,
+				973C01DE2860D0E9007852B0 /* MatchesView */,
+				973C01F328611D69007852B0 /* Extensions */,
+				972A8BAD285B8E50001132A4 /* HelperViews */,
+				972A8B92285B77CF001132A4 /* Assets.xcassets */,
+				972A8B94285B77CF001132A4 /* Preview Content */,
+				972A8BAE285B97BB001132A4 /* ProfileSwipePromo.swift */,
+				973C01C3285E600A007852B0 /* Model */,
+				973C01E928610740007852B0 /* Popups */,
+			);
+			path = TinderClone;
+			sourceTree = "<group>";
+		};
+		972A8B94285B77CF001132A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				972A8B95285B77CF001132A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		972A8BA4285B860F001132A4 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				972A8B9C285B78EF001132A4 /* MainView.swift */,
+				972A8B9E285B7A95001132A4 /* TabBarButtonView.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		972A8BA7285B8A56001132A4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				972A8BA5285B8A4B001132A4 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		972A8BAD285B8E50001132A4 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				972A8BA8285B8B89001132A4 /* RoundedImage.swift */,
+				97C3B9F5286231B1001A18FD /* CircleButtonView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		973C01C3285E600A007852B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				973C01C1285E6006007852B0 /* Message.swift */,
+				973C01C4285E608B007852B0 /* Person.swift */,
+				973C01C7285E6119007852B0 /* MessagePreview.swift */,
+				973C01DA2860CD2E007852B0 /* User.swift */,
+				973C01EF286111D8007852B0 /* Subscription.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		973C01C9285E61C2007852B0 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				973C01CA285E61DA007852B0 /* MessageView.swift */,
+				973C01CC285E63CE007852B0 /* ChatView.swift */,
+				973C01CE285E640D007852B0 /* ChatManager.swift */,
+				973C01D0285E660A007852B0 /* ChatViewHeader.swift */,
+				973C01D2285F9EB9007852B0 /* MessageListView.swift */,
+				973C01D4285F9EE8007852B0 /* MessageListVM.swift */,
+				973C01D6285FC3E7007852B0 /* MessageRowView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		973C01DE2860D0E9007852B0 /* MatchesView */ = {
+			isa = PBXGroup;
+			children = (
+				973C01DF2860D13E007852B0 /* LikesView.swift */,
+				973C01E12860D5D6007852B0 /* PersonSquare.swift */,
+				973C01E32860E0CB007852B0 /* TopPicksView.swift */,
+				973C01E52860E20E007852B0 /* MatchesView.swift */,
+			);
+			path = MatchesView;
+			sourceTree = "<group>";
+		};
+		973C01E928610740007852B0 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				973C01EC28610FD0007852B0 /* Purchase */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		973C01EC28610FD0007852B0 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				973C01E72861073B007852B0 /* PurchasePopup.swift */,
+				973C01EA28610FC3007852B0 /* PurchaseSwipePromo.swift */,
+				973C01ED2861119E007852B0 /* PurchaseOptionView.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		973C01F328611D69007852B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				973C01F128611B64007852B0 /* RoundedCorner.swift */,
+				972A8BA2285B8181001132A4 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		973C01F428612302007852B0 /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				973C01F628612339007852B0 /* CardImageScroller.swift */,
+				97C3B9F128622469001A18FD /* CardView.swift */,
+				97C3B9F328622C1F001A18FD /* FullScreenCardView.swift */,
+				97C3B9F728624508001A18FD /* CardStack.swift */,
+			);
+			path = CardViews;
+			sourceTree = "<group>";
+		};
+		973C01F528612323007852B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				973C01F428612302007852B0 /* CardViews */,
+				97C3B9F9286246EB001A18FD /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972A8B8A285B77CE001132A4 /* TinderClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972A8B99285B77CF001132A4 /* Build configuration list for PBXNativeTarget "TinderClone" */;
+			buildPhases = (
+				972A8B87285B77CE001132A4 /* Sources */,
+				972A8B88285B77CE001132A4 /* Frameworks */,
+				972A8B89285B77CE001132A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderClone;
+			packageProductDependencies = (
+				972A8BAB285B8BA0001132A4 /* Kingfisher */,
+			);
+			productName = TinderClone;
+			productReference = 972A8B8B285B77CE001132A4 /* TinderClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972A8B83285B77CE001132A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					972A8B8A285B77CE001132A4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 972A8B86285B77CE001132A4 /* Build configuration list for PBXProject "TinderClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 972A8B82285B77CE001132A4;
+			packageReferences = (
+				972A8BAA285B8BA0001132A4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 972A8B8C285B77CE001132A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972A8B8A285B77CE001132A4 /* TinderClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972A8B89285B77CE001132A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972A8B96285B77CF001132A4 /* Preview Assets.xcassets in Resources */,
+				972A8B93285B77CF001132A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972A8B87285B77CE001132A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C3B9F428622C1F001A18FD /* FullScreenCardView.swift in Sources */,
+				973C01CF285E640D007852B0 /* ChatManager.swift in Sources */,
+				973C01D3285F9EB9007852B0 /* MessageListView.swift in Sources */,
+				972A8B9F285B7A95001132A4 /* TabBarButtonView.swift in Sources */,
+				97C3B9F6286231B1001A18FD /* CircleButtonView.swift in Sources */,
+				973C01E22860D5D6007852B0 /* PersonSquare.swift in Sources */,
+				972A8BA9285B8B89001132A4 /* RoundedImage.swift in Sources */,
+				973C01E82861073B007852B0 /* PurchasePopup.swift in Sources */,
+				973C01D1285E660A007852B0 /* ChatViewHeader.swift in Sources */,
+				97C3B9FA286246EB001A18FD /* HomeView.swift in Sources */,
+				973C01E62860E20E007852B0 /* MatchesView.swift in Sources */,
+				973C01D7285FC3E7007852B0 /* MessageRowView.swift in Sources */,
+				972A8BA3285B8181001132A4 /* Extensions.swift in Sources */,
+				973C01D5285F9EE8007852B0 /* MessageListVM.swift in Sources */,
+				972A8B91285B77CE001132A4 /* ContentView.swift in Sources */,
+				973C01F228611B64007852B0 /* RoundedCorner.swift in Sources */,
+				973C01F0286111D8007852B0 /* Subscription.swift in Sources */,
+				973C01CD285E63CE007852B0 /* ChatView.swift in Sources */,
+				973C01C5285E608B007852B0 /* Person.swift in Sources */,
+				973C01CB285E61DA007852B0 /* MessageView.swift in Sources */,
+				972A8BAF285B97BB001132A4 /* ProfileSwipePromo.swift in Sources */,
+				972A8B9D285B78EF001132A4 /* MainView.swift in Sources */,
+				972A8B8F285B77CE001132A4 /* TinderCloneApp.swift in Sources */,
+				973C01F728612339007852B0 /* CardImageScroller.swift in Sources */,
+				973C01EE2861119E007852B0 /* PurchaseOptionView.swift in Sources */,
+				973C01C2285E6006007852B0 /* Message.swift in Sources */,
+				973C01EB28610FC3007852B0 /* PurchaseSwipePromo.swift in Sources */,
+				972A8BA6285B8A4B001132A4 /* ProfileView.swift in Sources */,
+				973C01E02860D13E007852B0 /* LikesView.swift in Sources */,
+				972A8BA1285B7F0A001132A4 /* AppStateManager.swift in Sources */,
+				973C01D92860CCE3007852B0 /* UserManager.swift in Sources */,
+				973C01E42860E0CB007852B0 /* TopPicksView.swift in Sources */,
+				973C01C8285E6119007852B0 /* MessagePreview.swift in Sources */,
+				97C3B9F228622469001A18FD /* CardView.swift in Sources */,
+				973C01DB2860CD2E007852B0 /* User.swift in Sources */,
+				97C3B9F828624508001A18FD /* CardStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		972A8B97285B77CF001132A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		972A8B98285B77CF001132A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972A8B9A285B77CF001132A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinderClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 979T59XLUF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markskurat.TinderClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		972A8B9B285B77CF001132A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinderClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 979T59XLUF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markskurat.TinderClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972A8B86285B77CE001132A4 /* Build configuration list for PBXProject "TinderClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972A8B97285B77CF001132A4 /* Debug */,
+				972A8B98285B77CF001132A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972A8B99285B77CF001132A4 /* Build configuration list for PBXNativeTarget "TinderClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972A8B9A285B77CF001132A4 /* Debug */,
+				972A8B9B285B77CF001132A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		972A8BAA285B8BA0001132A4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		972A8BAB285B8BA0001132A4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972A8BAA285B8BA0001132A4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 972A8B83285B77CE001132A4 /* Project object */;
+}
